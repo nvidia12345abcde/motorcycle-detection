@@ -86,4 +86,4 @@ detectnet \
   --output-cvg=scores \
   --output-bbox=boxes \
   data/motorcycle/test/biketest.png output3.jpg
-## This command will analyze the input image and save an output image (output3.jpg) with a bounding box drawn around the detected motorcycle(s).
+This command will analyze the input image and save an output image (output3.jpg) with a bounding box drawn around the detected motorcycle(s).

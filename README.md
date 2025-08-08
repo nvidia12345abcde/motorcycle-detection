@@ -79,11 +79,11 @@ export NET=~/jetson-inference/python/training/detection/ssd/models/motorcycle
 Run detection:
 
 
-detectnet \
-  --model=$NET/ssd-mobilenet.onnx \
-  --labels=$NET/labels.txt \
-  --input-blob=input_0 \
-  --output-cvg=scores \
-  --output-bbox=boxes \
+detectnet \\
+  --model=$NET/ssd-mobilenet.onnx \\
+  --labels=$NET/labels.txt \\
+  --input-blob=input_0 \\
+  --output-cvg=scores \\
+  --output-bbox=boxes \\
   data/motorcycle/test/biketest.png output3.jpg
 This command will analyze the input image and save an output image (output3.jpg) with a bounding box drawn around the detected motorcycle(s).
